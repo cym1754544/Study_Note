@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--    告诉Mybatis去哪找映射文件-->
+<!--    批量加载所有的Mapper接口和Mapper映射文件-->
+    <mappers>
+        <package name="com.xiaochen.zhenghe.mapper"/>
+    </mappers>
+
+
+</configuration>
+
